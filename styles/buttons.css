@@ -1,0 +1,44 @@
+.b1 {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.15s, box=shadow 0.15;
+}
+
+.b1:hover {
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.b1:active {
+    opacity: 0.2;
+}
+.b2 {
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}   
+
+.b2:hover {
+    background-color: black;
+    color: orange;
+} 
+
+.b2:active {
+    opacity: 0.3;
+}
