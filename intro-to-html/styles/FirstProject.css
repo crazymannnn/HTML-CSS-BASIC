@@ -1,0 +1,68 @@
+.code-aholic {
+    border-radius: 300px;
+    border: none;
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    margin-left: 250px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.code-aholic:hover {
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px; 
+}
+.title {
+    font-size: 50px;
+    color: grey;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.thumbnails-ytb, .thumbnails-fb, .thumbnails-ins {
+    display: inline-block;
+    width: 300px;
+    cursor: pointer;
+}
+.thumbnails-fb {
+    margin-left: 300px;
+}
+.thumbnails-ins {
+    margin-left: 150px;
+}
+
+
+.youtube {
+    margin-left: 25px;
+}
+
+.facebook {
+    margin-left: 380px;
+}
+
+.instagram {
+    margin-left: 200px;
+}
+.youtube, .facebook, .instagram {
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.youtube:hover, .facebook:hover, .instagram:hover {
+    opacity: 0.5;
+    color: blue;
+}
+.final {
+    margin-left: 400px;
+    font-size: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+.final:hover {
+    opacity: 0.5;
+    color:antiquewhite;
+}
+
+
